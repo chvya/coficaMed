@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/indices/*.parcial.npy
+data/indices/*.log
+data/casos/train.jsonl
+data/casos/dev.jsonl
+data/casos/test.jsonl
+.pytest_cache/
+*.log
+data/resultados/reglas_dev.jsonl
+data/resultados/reglas_test.jsonl

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "F1",
+    "titulo": "Dolor torácico con negaciones",
+    "texto": "Paciente masculino de 62 años, con HTA y DM2 en tratamiento. Acude por dolor torácico opresivo de 2 horas de evolución. Niega disnea y fiebre. Se descarta infarto agudo de miocardio por electrocardiograma normal. Diagnóstico: angina de pecho.",
+    "esperados": ["I10", "E11.9", "R07.9", "I20.9"],
+    "no_codificar": [
+      {"codigo": "R06.00", "motivo": "negado (niega disnea)"},
+      {"codigo": "R50.9", "motivo": "negado (niega fiebre)"},
+      {"codigo": "I21.9", "motivo": "descartado (infarto agudo de miocardio)"}
+    ]
+  },
+  {
+    "id": "F2",
+    "titulo": "Niña con tos y fiebre",
+    "texto": "Niña de 6 años con tos y fiebre de 3 días de evolución. Sin vómitos ni diarrea. La radiografía de tórax confirma neumonía. Antecedente de asma.",
+    "esperados": ["R05", "R50.9", "J18.9", "J45.909"],
+    "no_codificar": [
+      {"codigo": "R11.10", "motivo": "negado (sin vómitos)"},
+      {"codigo": "R19.7", "motivo": "negado (sin diarrea)"}
+    ]
+  },
+  {
+    "id": "F3",
+    "titulo": "Dolor abdominal, sospecha y familiar",
+    "texto": "Mujer de 34 años que acude por dolor abdominal en cuadrante inferior derecho y náuseas. No presenta vómitos. Probable apendicitis aguda, se solicita ecografía. Madre con diabetes mellitus.",
+    "esperados": ["R10.31", "R11.0"],
+    "no_codificar": [
+      {"codigo": "R11.10", "motivo": "negado (no presenta vómitos)"},
+      {"codigo": "K35.80", "motivo": "incierto (probable apendicitis)"},
+      {"codigo": "E11.9", "motivo": "familiar (madre con diabetes)"}
+    ]
+  },
+  {
+    "id": "F4",
+    "titulo": "Nota con abreviaturas",
+    "texto": "Pcte de 71 años con HTA, DM2, EPOC y FA. Consulta por disnea progresiva y edema de miembros inferiores. Sin dolor torácico. Se diagnostica ICC descompensada.",
+    "esperados": ["I10", "E11.9", "J44.9", "I48.91", "R06.00", "R60.0", "I50.9"],
+    "no_codificar": [
+      {"codigo": "R07.9", "motivo": "negado (sin dolor torácico)"}
+    ]
+  },
+  {
+    "id": "F5",
+    "titulo": "Síntomas urinarios",
+    "texto": "Mujer de 28 años con disuria y polaquiuria de 2 días. Niega fiebre y hematuria. Se diagnostica infección urinaria.",
+    "esperados": ["R30.0", "R35.0", "N39.0"],
+    "no_codificar": [
+      {"codigo": "R50.9", "motivo": "negado (niega fiebre)"},
+      {"codigo": "R31.9", "motivo": "negado (niega hematuria)"}
+    ]
+  },
+  {
+    "id": "F6",
+    "titulo": "Cefalea con diagnóstico descartado",
+    "texto": "Varón de 45 años con cefalea frontal de una semana, sin náuseas ni alteraciones visuales. Antecedente de obesidad. Se descarta hemorragia cerebral por tomografía.",
+    "esperados": ["R51", "E66.9"],
+    "no_codificar": [
+      {"codigo": "R11.0", "motivo": "negado (sin náuseas)"},
+      {"codigo": "H53.9", "motivo": "negado (sin alteraciones visuales)"},
+      {"codigo": "I61.9", "motivo": "descartado (hemorragia cerebral)"}
+    ]
+  }
+]

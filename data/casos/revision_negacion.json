@@ -1,0 +1,3757 @@
+{
+"descripcion": "Estado de cada anotación diagnóstica de CodiEsp-X en los 30 primeros casos de data/casos/evaluacion.jsonl, según revisión manual del contexto en la nota. afirmado: la nota indica que el hallazgo está presente o estuvo presente; negado: la nota lo niega, lo descarta o lo informa como normal o negativo; incierto: posible, probable, sospecha o diagnóstico diferencial.",
+"anotaciones": [
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "I10",
+"ini": 48,
+"fin": 69,
+"texto": "hipertensión arterial",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "R69",
+"ini": 71,
+"fin": 81,
+"texto": "enfermedad",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "J44.9",
+"ini": 71,
+"fin": 110,
+"texto": "enfermedad pulmonar obstructiva crónica",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "Z87.891",
+"ini": 112,
+"fin": 121,
+"texto": "exfumador",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "C67.9",
+"ini": 141,
+"fin": 178,
+"texto": "carcinoma papilar urotelial de vejiga",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "R53.81",
+"ini": 465,
+"fin": 473,
+"texto": "malestar",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "R50.9",
+"ini": 484,
+"fin": 490,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "D72.829",
+"ini": 803,
+"fin": 815,
+"texto": "leucocitosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "D72.0",
+"ini": 820,
+"fin": 831,
+"texto": "neutrofilia",
+"estado": "negado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "F10.10",
+"ini": 947,
+"fin": 954,
+"texto": "alcohol",
+"estado": "negado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "R59.9",
+"ini": 1091,
+"fin": 1102,
+"texto": "adenopatías",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "A15.0",
+"ini": 1141,
+"fin": 1273,
+"texto": "TBC pulmonar",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "A19.9",
+"ini": 1141,
+"fin": 1151,
+"texto": "TBC miliar",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "R59.9",
+"ini": 1210,
+"fin": 1221,
+"texto": "adenopatías",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "R91.8",
+"ini": 1342,
+"fin": 1402,
+"texto": "nódulos pulmonares",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "R50.9",
+"ini": 1668,
+"fin": 1686,
+"texto": "episodios febriles",
+"estado": "negado"
+},
+{
+"caso": "S0210-48062007000700015-1",
+"codigo": "R59.9",
+"ini": 1887,
+"fin": 1898,
+"texto": "adenopatías",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "I10",
+"ini": 41,
+"fin": 62,
+"texto": "hipertensión arterial",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "M15.9",
+"ini": 65,
+"fin": 77,
+"texto": "poliartrosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "R14.0",
+"ini": 126,
+"fin": 154,
+"texto": "distensión abdominal",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "R52",
+"ini": 139,
+"fin": 144,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "R10.9",
+"ini": 139,
+"fin": 154,
+"texto": "dolor abdominal",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "K59.00",
+"ini": 166,
+"fin": 179,
+"texto": "estreñimiento",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "R50.9",
+"ini": 182,
+"fin": 191,
+"texto": "febrícula",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "R50.9",
+"ini": 515,
+"fin": 524,
+"texto": "febrícula",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "R10.819",
+"ini": 539,
+"fin": 594,
+"texto": "abdomen doloroso a la palpación",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "R14.0",
+"ini": 539,
+"fin": 557,
+"texto": "abdomen distendido",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "R52",
+"ini": 816,
+"fin": 821,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "E80.7",
+"ini": 1124,
+"fin": 1135,
+"texto": "bilirrubina",
+"estado": "negado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "J98.11",
+"ini": 1696,
+"fin": 1707,
+"texto": "atelectasia",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "J90",
+"ini": 1757,
+"fin": 1772,
+"texto": "derrame pleural",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "R59.9",
+"ini": 1816,
+"fin": 1827,
+"texto": "adenopatías",
+"estado": "negado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "J90",
+"ini": 1930,
+"fin": 1953,
+"texto": "derrame pleural derecho",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "M46.40",
+"ini": 2330,
+"fin": 2347,
+"texto": "espondilodiscitis",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "M46.34",
+"ini": 2330,
+"fin": 2366,
+"texto": "espondilodiscitis infecciosa D10-D11",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "B95.3",
+"ini": 2580,
+"fin": 2604,
+"texto": "Streptococcus pneumoniae",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992007000100007-1",
+"codigo": "J90",
+"ini": 3539,
+"fin": 3554,
+"texto": "derrame pleural",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-05582010000200005-1",
+"codigo": "R52",
+"ini": 323,
+"fin": 328,
+"texto": "dolor",
+"estado": "negado"
+},
+{
+"caso": "S1130-05582010000200005-1",
+"codigo": "D49.2",
+"ini": 744,
+"fin": 769,
+"texto": "lesión tumoral mandibular",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-05582010000200005-1",
+"codigo": "D16.5",
+"ini": 1310,
+"fin": 1340,
+"texto": "mixoma odontogénico mandibular",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-05582010000200005-1",
+"codigo": "D16.5",
+"ini": 2320,
+"fin": 2350,
+"texto": "mixoma odontogénico mandibular",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912008000700010-1",
+"codigo": "H02.843",
+"ini": 65,
+"fin": 159,
+"texto": "ojo derecho edema palpebral",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912008000700010-1",
+"codigo": "H05.20",
+"ini": 112,
+"fin": 121,
+"texto": "proptosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912008000700010-1",
+"codigo": "R60.9",
+"ini": 137,
+"fin": 142,
+"texto": "edema",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912008000700010-1",
+"codigo": "H53.2",
+"ini": 278,
+"fin": 296,
+"texto": "diplopía binocular",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912008000700010-1",
+"codigo": "H53.411",
+"ini": 843,
+"fin": 877,
+"texto": "escotoma OD",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912008000700010-1",
+"codigo": "H53.419",
+"ini": 843,
+"fin": 851,
+"texto": "escotoma",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912008000700010-1",
+"codigo": "R60.9",
+"ini": 1365,
+"fin": 1370,
+"texto": "edema",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912008000700010-1",
+"codigo": "H02.849",
+"ini": 1365,
+"fin": 1380,
+"texto": "edema palpebral",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912008000700010-1",
+"codigo": "H05.20",
+"ini": 1385,
+"fin": 1394,
+"texto": "proptosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912008000700010-1",
+"codigo": "H53.2",
+"ini": 1439,
+"fin": 1457,
+"texto": "diplopía binocular",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912007000900016-1",
+"codigo": "H53.8",
+"ini": 73,
+"fin": 87,
+"texto": "visión borrosa",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912007000900016-1",
+"codigo": "H54.61",
+"ini": 1054,
+"fin": 1076,
+"texto": "OD pérdida visual",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "R11.10",
+"ini": 132,
+"fin": 139,
+"texto": "vómitos",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "R10.9",
+"ini": 142,
+"fin": 157,
+"texto": "dolor abdominal",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "R53.1",
+"ini": 189,
+"fin": 196,
+"texto": "astenia",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "R63.0",
+"ini": 199,
+"fin": 207,
+"texto": "anorexia",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "R11.10",
+"ini": 340,
+"fin": 347,
+"texto": "vómitos",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "R10.813",
+"ini": 462,
+"fin": 518,
+"texto": "dolor a la palpación en hipocondrio derecho",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "R10.816",
+"ini": 462,
+"fin": 496,
+"texto": "dolor a la palpación en epigastrio",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "K65.9",
+"ini": 619,
+"fin": 640,
+"texto": "irritación peritoneal",
+"estado": "negado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "R74.0",
+"ini": 718,
+"fin": 738,
+"texto": "hipertransaminasemia",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "D68.9",
+"ini": 750,
+"fin": 762,
+"texto": "coagulopatía",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "R16.0",
+"ini": 828,
+"fin": 841,
+"texto": "masa hepática",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "B99.9",
+"ini": 1027,
+"fin": 1036,
+"texto": "infección",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "B18.1",
+"ini": 1027,
+"fin": 1052,
+"texto": "infección crónica por VHB",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "B19.10",
+"ini": 1049,
+"fin": 1052,
+"texto": "VHB",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "C22.0",
+"ini": 1140,
+"fin": 1143,
+"texto": "HCC",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "B99.9",
+"ini": 1170,
+"fin": 1179,
+"texto": "infección",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "B18.1",
+"ini": 1170,
+"fin": 1187,
+"texto": "infección por VHB",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082008000500017-2",
+"codigo": "B19.10",
+"ini": 1184,
+"fin": 1187,
+"texto": "VHB",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "D49.59",
+"ini": 280,
+"fin": 348,
+"texto": "testículo neoplasia",
+"estado": "incierto"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "R63.4",
+"ini": 408,
+"fin": 423,
+"texto": "pérdida de peso",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "R52",
+"ini": 595,
+"fin": 604,
+"texto": "dolorosos",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "N50.9",
+"ini": 1232,
+"fin": 1646,
+"texto": "lesión testicular",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "N50.89",
+"ini": 1324,
+"fin": 1362,
+"texto": "microlitiasis testiculares bilaterales",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "R59.9",
+"ini": 1538,
+"fin": 1549,
+"texto": "adenopatías",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "D49.59",
+"ini": 1630,
+"fin": 1646,
+"texto": "tumor testicular",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "N50.0",
+"ini": 1799,
+"fin": 1827,
+"texto": "testículo izquierdo atrófico",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "C62.91",
+"ini": 1865,
+"fin": 1873,
+"texto": "seminoma",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "C62.92",
+"ini": 1865,
+"fin": 1881,
+"texto": "seminoma clásico",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "C62.91",
+"ini": 2125,
+"fin": 2141,
+"texto": "seminoma clásico",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "N50.0",
+"ini": 2269,
+"fin": 2292,
+"texto": "atrofia en el testículo",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142007000200017-1",
+"codigo": "R69",
+"ini": 2548,
+"fin": 2558,
+"texto": "enfermedad",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400015-1",
+"codigo": "Z90.3",
+"ini": 31,
+"fin": 58,
+"texto": "antecedente de gastrectomía",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400015-1",
+"codigo": "K25.9",
+"ini": 84,
+"fin": 106,
+"texto": "ulcus gástrico péptico",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400015-1",
+"codigo": "R10.9",
+"ini": 211,
+"fin": 226,
+"texto": "dolor abdominal",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400015-1",
+"codigo": "K82.8",
+"ini": 390,
+"fin": 416,
+"texto": "vesícula biliar distendida",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400015-1",
+"codigo": "K83.8",
+"ini": 429,
+"fin": 460,
+"texto": "dilatación de las vías biliares",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432013000500014-1",
+"codigo": "C91.10",
+"ini": 42,
+"fin": 45,
+"texto": "LLC",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432013000500014-1",
+"codigo": "R69",
+"ini": 205,
+"fin": 215,
+"texto": "enfermedad",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432013000500014-1",
+"codigo": "R50.9",
+"ini": 500,
+"fin": 506,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432013000500014-1",
+"codigo": "L29.9",
+"ini": 544,
+"fin": 551,
+"texto": "prurito",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432013000500014-1",
+"codigo": "L21.1",
+"ini": 554,
+"fin": 578,
+"texto": "eritrodermia descamativa",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432013000500014-1",
+"codigo": "L29.9",
+"ini": 2533,
+"fin": 2540,
+"texto": "prurito",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912005001200008-1",
+"codigo": "H57.9",
+"ini": 460,
+"fin": 526,
+"texto": "masa OD",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912005001200008-1",
+"codigo": "H02.9",
+"ini": 594,
+"fin": 644,
+"texto": "lesión párpado",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912005001200008-1",
+"codigo": "H02.401",
+"ini": 637,
+"fin": 1699,
+"texto": "párpado superior OD ptosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912005001200008-1",
+"codigo": "H50.9",
+"ini": 668,
+"fin": 681,
+"texto": "oftalmoplejía",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912005001200008-1",
+"codigo": "H40.9",
+"ini": 1197,
+"fin": 1205,
+"texto": "glaucoma",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "I26.99",
+"ini": 113,
+"fin": 137,
+"texto": "tromboembolismo pulmonar",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "R31.9",
+"ini": 194,
+"fin": 203,
+"texto": "hematuria",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "N28.89",
+"ini": 305,
+"fin": 315,
+"texto": "masa renal",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "I82.3",
+"ini": 581,
+"fin": 623,
+"texto": "trombosis vena renal derecha",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "R59.9",
+"ini": 665,
+"fin": 676,
+"texto": "adenopatías",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "I82.90",
+"ini": 815,
+"fin": 821,
+"texto": "trombo",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "C64.9",
+"ini": 911,
+"fin": 946,
+"texto": "carcinoma de células renales claras",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "N48.89",
+"ini": 1282,
+"fin": 1287,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "N48.9",
+"ini": 1307,
+"fin": 1452,
+"texto": "pene masa",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "N48.9",
+"ini": 1307,
+"fin": 1370,
+"texto": "pene masa",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "C64.9",
+"ini": 1533,
+"fin": 1548,
+"texto": "carcinoma renal",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "R52",
+"ini": 1925,
+"fin": 1930,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "R69",
+"ini": 2094,
+"fin": 2104,
+"texto": "enfermedad",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "R40.1",
+"ini": 2187,
+"fin": 2199,
+"texto": "obnubilación",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "R20.9",
+"ini": 2202,
+"fin": 2231,
+"texto": "alteración motora y sensitiva",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "C79.31",
+"ini": 2295,
+"fin": 2337,
+"texto": "cerebral metástasis",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "R91.8",
+"ini": 2394,
+"fin": 2412,
+"texto": "nódulos pulmonares",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "R59.9",
+"ini": 2415,
+"fin": 2431,
+"texto": "microadenopatías",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "C64.9",
+"ini": 2558,
+"fin": 2573,
+"texto": "carcinoma renal",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142006000500012-1",
+"codigo": "C79.82",
+"ini": 2626,
+"fin": 2644,
+"texto": "metástasis en pene",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062009000900015-3",
+"codigo": "E11.9",
+"ini": 55,
+"fin": 79,
+"texto": "diabetes mellitus tipo 2",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062009000900015-3",
+"codigo": "N18.9",
+"ini": 107,
+"fin": 134,
+"texto": "insuficiencia renal crónica",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062009000900015-3",
+"codigo": "Z99.2",
+"ini": 155,
+"fin": 179,
+"texto": "tratado con hemodiálisis",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062009000900015-3",
+"codigo": "N48.9",
+"ini": 360,
+"fin": 391,
+"texto": "lesiones glande",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062009000900015-3",
+"codigo": "N48.5",
+"ini": 385,
+"fin": 433,
+"texto": "glande úlceras",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062009000900015-3",
+"codigo": "N48.89",
+"ini": 478,
+"fin": 504,
+"texto": "dolor glande",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062009000900015-3",
+"codigo": "N48.29",
+"ini": 588,
+"fin": 645,
+"texto": "glande lesión necrótica",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062009000900015-3",
+"codigo": "N48.6",
+"ini": 737,
+"fin": 785,
+"texto": "induración pene",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R10.84",
+"ini": 58,
+"fin": 80,
+"texto": "dolor abdominal difuso",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R52",
+"ini": 58,
+"fin": 63,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R10.13",
+"ini": 58,
+"fin": 115,
+"texto": "dolor epigastrio",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R10.9",
+"ini": 58,
+"fin": 73,
+"texto": "dolor abdominal",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R11.0",
+"ini": 151,
+"fin": 158,
+"texto": "náuseas",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R11.10",
+"ini": 160,
+"fin": 167,
+"texto": "vómitos",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R11.14",
+"ini": 160,
+"fin": 176,
+"texto": "vómitos biliosos",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R52",
+"ini": 202,
+"fin": 207,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R05",
+"ini": 223,
+"fin": 226,
+"texto": "tos",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R50.9",
+"ini": 253,
+"fin": 259,
+"texto": "fiebre",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R82.2",
+"ini": 288,
+"fin": 295,
+"texto": "coluria",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "K82.8",
+"ini": 299,
+"fin": 305,
+"texto": "acolia",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R52",
+"ini": 396,
+"fin": 401,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R23.1",
+"ini": 428,
+"fin": 435,
+"texto": "Palidez",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R52",
+"ini": 558,
+"fin": 563,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R10.84",
+"ini": 558,
+"fin": 586,
+"texto": "dolor abdominal generalizado",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R10.817",
+"ini": 558,
+"fin": 601,
+"texto": "dolor abdominal generalizado a la palpación",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "K65.9",
+"ini": 644,
+"fin": 665,
+"texto": "irritación peritoneal",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R60.0",
+"ini": 725,
+"fin": 754,
+"texto": "edemas en miembros inferiores",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R60.9",
+"ini": 725,
+"fin": 731,
+"texto": "edemas",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.40",
+"ini": 769,
+"fin": 794,
+"texto": "trombosis venosa profunda",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.90",
+"ini": 769,
+"fin": 785,
+"texto": "trombosis venosa",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.40",
+"ini": 796,
+"fin": 799,
+"texto": "TVP",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R74.0",
+"ini": 848,
+"fin": 872,
+"texto": "aumento de transaminasas",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "D72.0",
+"ini": 981,
+"fin": 992,
+"texto": "neutrofilia",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.220",
+"ini": 1100,
+"fin": 1212,
+"texto": "trombo vena cava inferior",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "N28.0",
+"ini": 1100,
+"fin": 1153,
+"texto": "trombo riñón",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.3",
+"ini": 1100,
+"fin": 1176,
+"texto": "trombo vena renal",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R10.13",
+"ini": 1420,
+"fin": 1433,
+"texto": "epigastralgia",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "D17.9",
+"ini": 1539,
+"fin": 1545,
+"texto": "Lipoma",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "K81.9",
+"ini": 1576,
+"fin": 1588,
+"texto": "colecistitis",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "K85.90",
+"ini": 1624,
+"fin": 1636,
+"texto": "pancreatitis",
+"estado": "incierto"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.0",
+"ini": 1831,
+"fin": 1854,
+"texto": "Síndrome de Budd-Chiari",
+"estado": "incierto"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "J90",
+"ini": 1907,
+"fin": 1932,
+"texto": "derrame pleural bilateral",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "D17.9",
+"ini": 2013,
+"fin": 2027,
+"texto": "angiomiolipoma",
+"estado": "incierto"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "D17.9",
+"ini": 2029,
+"fin": 2032,
+"texto": "AML",
+"estado": "incierto"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "D17.71",
+"ini": 2038,
+"fin": 2050,
+"texto": "lipoma renal",
+"estado": "incierto"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "K76.1",
+"ini": 2256,
+"fin": 2275,
+"texto": "congestión hepática",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R16.0",
+"ini": 2277,
+"fin": 2290,
+"texto": "hepatomegalia",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "R60.9",
+"ini": 2394,
+"fin": 2399,
+"texto": "edema",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.0",
+"ini": 2498,
+"fin": 2521,
+"texto": "síndrome de Budd-Chiari",
+"estado": "incierto"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.2",
+"ini": 2535,
+"fin": 2549,
+"texto": "trombo en cava",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.90",
+"ini": 2867,
+"fin": 2873,
+"texto": "trombo",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I31.3",
+"ini": 2931,
+"fin": 2950,
+"texto": "derrame pericárdico",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.0",
+"ini": 2983,
+"fin": 3006,
+"texto": "Síndrome de Budd-Chiari",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.90",
+"ini": 3020,
+"fin": 3026,
+"texto": "trombo",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.2",
+"ini": 3020,
+"fin": 3034,
+"texto": "trombo en cava",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "D17.9",
+"ini": 3036,
+"fin": 3039,
+"texto": "AML",
+"estado": "incierto"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "D17.9",
+"ini": 3044,
+"fin": 3050,
+"texto": "Lipoma",
+"estado": "incierto"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.90",
+"ini": 3258,
+"fin": 3264,
+"texto": "trombo",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.90",
+"ini": 4163,
+"fin": 4169,
+"texto": "trombo",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "I82.90",
+"ini": 4361,
+"fin": 4367,
+"texto": "trombo",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "D17.71",
+"ini": 4415,
+"fin": 4469,
+"texto": "angiomiolipoma renal",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142008000300012-1",
+"codigo": "D17.9",
+"ini": 4415,
+"fin": 4429,
+"texto": "angiomiolipoma",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "Z95.2",
+"ini": 35,
+"fin": 63,
+"texto": "con prótesis mitral metálica",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "I08.1",
+"ini": 48,
+"fin": 150,
+"texto": "mitral tricuspídea valvulopatía reumática",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "I48.2",
+"ini": 152,
+"fin": 181,
+"texto": "fibrilación auricular crónica",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "I48.91",
+"ini": 152,
+"fin": 173,
+"texto": "fibrilación auricular",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "I10",
+"ini": 189,
+"fin": 192,
+"texto": "HTA",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "I50.9",
+"ini": 194,
+"fin": 227,
+"texto": "insuficiencia cardiaca congestiva",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "I50.9",
+"ini": 229,
+"fin": 232,
+"texto": "ICC",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "Z79.01",
+"ini": 268,
+"fin": 304,
+"texto": "Recibía tratamiento con acenocumarol",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "R50.9",
+"ini": 348,
+"fin": 354,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "R68.83",
+"ini": 356,
+"fin": 367,
+"texto": "escalofríos",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "R06.00",
+"ini": 391,
+"fin": 397,
+"texto": "disnea",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "R06.01",
+"ini": 420,
+"fin": 428,
+"texto": "ortopnea",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "R60.0",
+"ini": 431,
+"fin": 445,
+"texto": "edemas en MMII",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "R60.9",
+"ini": 431,
+"fin": 437,
+"texto": "edemas",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "I50.9",
+"ini": 493,
+"fin": 496,
+"texto": "ICC",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "R16.0",
+"ini": 616,
+"fin": 629,
+"texto": "hepatomegalia",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "R60.9",
+"ini": 681,
+"fin": 687,
+"texto": "edemas",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "R60.9",
+"ini": 704,
+"fin": 709,
+"texto": "fóvea",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "I50.9",
+"ini": 943,
+"fin": 946,
+"texto": "ICC",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "A54.9",
+"ini": 1025,
+"fin": 1040,
+"texto": "Neisseria Sicca",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "I33.0",
+"ini": 1490,
+"fin": 1513,
+"texto": "Endocarditis Infecciosa",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "I38",
+"ini": 1490,
+"fin": 1502,
+"texto": "Endocarditis",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "Z95.2",
+"ini": 1638,
+"fin": 1653,
+"texto": "prótesis mitral",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "G81.94",
+"ini": 1767,
+"fin": 1808,
+"texto": "pérdida de fuerza en hemicuerpo izquierdo",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "T14.8",
+"ini": 2297,
+"fin": 2305,
+"texto": "hematoma",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "S06.36",
+"ini": 2681,
+"fin": 2698,
+"texto": "hematoma cerebral",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-71992004001100007-1",
+"codigo": "T14.8",
+"ini": 2681,
+"fin": 2689,
+"texto": "hematoma",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "G35",
+"ini": 42,
+"fin": 61,
+"texto": "esclerosis múltiple",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "M45.9",
+"ini": 99,
+"fin": 124,
+"texto": "espondilitis anquilosante",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "R10.9",
+"ini": 242,
+"fin": 270,
+"texto": "dolor abdominal",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "R14.0",
+"ini": 250,
+"fin": 270,
+"texto": "distensión abdominal",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "R11.10",
+"ini": 463,
+"fin": 469,
+"texto": "vómito",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "R99",
+"ini": 586,
+"fin": 592,
+"texto": "muerte",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "Z68.21",
+"ini": 689,
+"fin": 724,
+"texto": "índice de masa corporal 21",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "R14.0",
+"ini": 827,
+"fin": 847,
+"texto": "distensión abdominal",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "K31.89",
+"ini": 875,
+"fin": 898,
+"texto": "dilatación del estómago",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "T17.810",
+"ini": 1362,
+"fin": 1396,
+"texto": "contenido gástrico en la vía aérea",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "G35",
+"ini": 1572,
+"fin": 1591,
+"texto": "esclerosis múltiple",
+"estado": "afirmado"
+},
+{
+"caso": "S1135-76062013000100008-1",
+"codigo": "J69.0",
+"ini": 1603,
+"fin": 1628,
+"texto": "aspiración broncoalveolar",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "K50.90",
+"ini": 37,
+"fin": 56,
+"texto": "enfermedad de Crohn",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "K50.00",
+"ini": 37,
+"fin": 78,
+"texto": "enfermedad de Crohn de localización ileal",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "R69",
+"ini": 37,
+"fin": 47,
+"texto": "enfermedad",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "K65.9",
+"ini": 265,
+"fin": 276,
+"texto": "peritonitis",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "T81.83X",
+"ini": 390,
+"fin": 459,
+"texto": "complicaciones postoperatorias fístula",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "K91.2",
+"ini": 422,
+"fin": 449,
+"texto": "síndrome de intestino corto",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "K63.2",
+"ini": 452,
+"fin": 490,
+"texto": "fístula enterocutánea",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "R50.9",
+"ini": 557,
+"fin": 566,
+"texto": "febrícula",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "B99.9",
+"ini": 568,
+"fin": 577,
+"texto": "infección",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "E46",
+"ini": 617,
+"fin": 629,
+"texto": "desnutrición",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "Z93.2",
+"ini": 641,
+"fin": 668,
+"texto": "portadora de una ileostomía",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "K83.1",
+"ini": 1140,
+"fin": 1150,
+"texto": "colestasis",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "K63.2",
+"ini": 1351,
+"fin": 1372,
+"texto": "fístula enterocutánea",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "R50.9",
+"ini": 1399,
+"fin": 1405,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "R52",
+"ini": 1407,
+"fin": 1412,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "R10.9",
+"ini": 1407,
+"fin": 1422,
+"texto": "dolor abdominal",
+"estado": "afirmado"
+},
+{
+"caso": "S0212-16112012000500042-1",
+"codigo": "R63.4",
+"ini": 1425,
+"fin": 1440,
+"texto": "pérdida de peso",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "S06.0X0",
+"ini": 55,
+"fin": 58,
+"texto": "TCE",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "S06.9X9",
+"ini": 55,
+"fin": 100,
+"texto": "TCE con pérdida de conciencia",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "W19.XXX",
+"ini": 120,
+"fin": 125,
+"texto": "caída",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "H54.61",
+"ini": 170,
+"fin": 206,
+"texto": "pérdida de visión por el ojo derecho",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "E11.9",
+"ini": 283,
+"fin": 307,
+"texto": "diabetes mellitus tipo 2",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "Z79.84",
+"ini": 308,
+"fin": 348,
+"texto": "en tratamiento con antidiabéticos orales",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "M19.90",
+"ini": 351,
+"fin": 359,
+"texto": "artrosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "S01.101",
+"ini": 461,
+"fin": 541,
+"texto": "herida inciso-contusa infraciliar derechos",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "T14.8",
+"ini": 500,
+"fin": 508,
+"texto": "hematoma",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "S02.19X",
+"ini": 1103,
+"fin": 1149,
+"texto": "fractura techo de la órbita derecha",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "S02.19X",
+"ini": 1103,
+"fin": 1201,
+"texto": "fractura esfenoides derecho",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "G62.9",
+"ini": 1674,
+"fin": 1684,
+"texto": "neuropatía",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "H46.9",
+"ini": 1674,
+"fin": 1691,
+"texto": "neuropatía óptica",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912006000200012-1",
+"codigo": "T14.90",
+"ini": 1760,
+"fin": 1771,
+"texto": "traumatismo",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "T14.90",
+"ini": 71,
+"fin": 82,
+"texto": "traumatismo",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "S39.94X",
+"ini": 71,
+"fin": 93,
+"texto": "traumatismo testicular",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "N50.9",
+"ini": 143,
+"fin": 185,
+"texto": "aumento del tamaño del hemiescroto derecho",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "N50.81",
+"ini": 203,
+"fin": 225,
+"texto": "molestias testiculares",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "N50.9",
+"ini": 271,
+"fin": 290,
+"texto": "masa paratesticular",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "N50.89",
+"ini": 271,
+"fin": 298,
+"texto": "masa paratesticular derecha",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "N50.9",
+"ini": 437,
+"fin": 476,
+"texto": "hemiescroto derecho aumentado de tamaño",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "R52",
+"ini": 595,
+"fin": 603,
+"texto": "dolorosa",
+"estado": "negado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "N43.3",
+"ini": 920,
+"fin": 937,
+"texto": "hidrocele derecho",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "Q55.21",
+"ini": 976,
+"fin": 990,
+"texto": "poliorquidismo",
+"estado": "incierto"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "N43.3",
+"ini": 995,
+"fin": 1004,
+"texto": "hidrocele",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "N43.3",
+"ini": 1275,
+"fin": 1292,
+"texto": "hidrocele derecho",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "N43.3",
+"ini": 1496,
+"fin": 1505,
+"texto": "hidrocele",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142009000100009-1",
+"codigo": "N50.0",
+"ini": 1556,
+"fin": 1599,
+"texto": "testicular atrofia",
+"estado": "negado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "R52",
+"ini": 107,
+"fin": 112,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "R68.84",
+"ini": 107,
+"fin": 131,
+"texto": "dolor mandibular",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "M19.90",
+"ini": 250,
+"fin": 258,
+"texto": "artrosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "I10",
+"ini": 646,
+"fin": 667,
+"texto": "hipertensión arterial",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "E78.00",
+"ini": 688,
+"fin": 707,
+"texto": "hipercolesterolemia",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "R68.84",
+"ini": 848,
+"fin": 887,
+"texto": "dolor en región submandibular bilateral",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "R52",
+"ini": 989,
+"fin": 994,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "R61",
+"ini": 1091,
+"fin": 1101,
+"texto": "sudoración",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "R52",
+"ini": 1162,
+"fin": 1167,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "M19.90",
+"ini": 1626,
+"fin": 1634,
+"texto": "artrosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "M26.69",
+"ini": 1626,
+"fin": 1686,
+"texto": "artrosis articulación temporomandibular izquierda",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "R52",
+"ini": 1735,
+"fin": 1740,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "I25.9",
+"ini": 1828,
+"fin": 1849,
+"texto": "cardiopatía isquémica",
+"estado": "incierto"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "R68.84",
+"ini": 2101,
+"fin": 2117,
+"texto": "dolor mandibular",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "I25.10",
+"ini": 2430,
+"fin": 2467,
+"texto": "lesión vasos coronarios",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "I20.0",
+"ini": 2557,
+"fin": 2572,
+"texto": "angor inestable",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "I25.10",
+"ini": 2590,
+"fin": 2627,
+"texto": "lesión vasos coronarios",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852003000500002-1",
+"codigo": "I35.9",
+"ini": 2636,
+"fin": 2650,
+"texto": "lesión aórtica",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852007000100002-1",
+"codigo": "K01.0",
+"ini": 248,
+"fin": 599,
+"texto": "dental inclusión",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852007000100002-1",
+"codigo": "R52",
+"ini": 369,
+"fin": 374,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852007000100002-1",
+"codigo": "D16.5",
+"ini": 1116,
+"fin": 1129,
+"texto": "ameloblastoma",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852007000100002-1",
+"codigo": "D16.5",
+"ini": 1760,
+"fin": 1773,
+"texto": "ameloblastoma",
+"estado": "afirmado"
+},
+{
+"caso": "S0213-12852007000100002-1",
+"codigo": "L90.5",
+"ini": 2673,
+"fin": 2686,
+"texto": "cicatrización",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "K57.30",
+"ini": 47,
+"fin": 70,
+"texto": "diverticulosis colónica",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "K57.90",
+"ini": 47,
+"fin": 61,
+"texto": "diverticulosis",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "E55.9",
+"ini": 114,
+"fin": 135,
+"texto": "déficit de vitamina D",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "I10",
+"ini": 137,
+"fin": 158,
+"texto": "hipertensión arterial",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "I27.2",
+"ini": 137,
+"fin": 169,
+"texto": "hipertensión pulmonar",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "I48.92",
+"ini": 171,
+"fin": 187,
+"texto": "flúter auricular",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "I08.3",
+"ini": 190,
+"fin": 233,
+"texto": "insuficiencia mitral, tricuspídea y aórtica",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "I34.0",
+"ini": 190,
+"fin": 210,
+"texto": "insuficiencia mitral",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "Z79.01",
+"ini": 238,
+"fin": 352,
+"texto": "tratamiento con acenocumarol",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "Z99.81",
+"ini": 538,
+"fin": 565,
+"texto": "oxigenoterapia domiciliaria",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "K92.1",
+"ini": 636,
+"fin": 648,
+"texto": "hematoquecia",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "J84.10",
+"ini": 859,
+"fin": 908,
+"texto": "granuloma pulmonar",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "L92.9",
+"ini": 859,
+"fin": 868,
+"texto": "granuloma",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "R59.9",
+"ini": 915,
+"fin": 925,
+"texto": "adenopatía",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "J18.9",
+"ini": 974,
+"fin": 982,
+"texto": "neumonía",
+"estado": "incierto"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "J18.1",
+"ini": 974,
+"fin": 996,
+"texto": "neumonía multi-lobular",
+"estado": "incierto"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "R06.00",
+"ini": 1197,
+"fin": 1203,
+"texto": "disnea",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "R59.9",
+"ini": 1522,
+"fin": 1532,
+"texto": "adenopatía",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "F32.9",
+"ini": 2140,
+"fin": 2156,
+"texto": "cuadro depresivo",
+"estado": "incierto"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "R06.00",
+"ini": 2220,
+"fin": 2226,
+"texto": "disnea",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "R07.1",
+"ini": 2251,
+"fin": 2311,
+"texto": "dolor con la inspiración",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "R07.9",
+"ini": 2251,
+"fin": 2271,
+"texto": "dolor centrotorácico",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "R06.00",
+"ini": 2710,
+"fin": 2716,
+"texto": "disnea",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-63432016000600014-1",
+"codigo": "R07.9",
+"ini": 2722,
+"fin": 2736,
+"texto": "dolor torácico",
+"estado": "afirmado"
+},
+{
+"caso": "S1699-695X2015000200013-1",
+"codigo": "F84.5",
+"ini": 48,
+"fin": 68,
+"texto": "síndrome de Asperger",
+"estado": "afirmado"
+},
+{
+"caso": "S1699-695X2015000200013-1",
+"codigo": "F90.9",
+"ini": 83,
+"fin": 119,
+"texto": "déficit de atención e hiperactividad",
+"estado": "afirmado"
+},
+{
+"caso": "S1699-695X2015000200013-1",
+"codigo": "E03.9",
+"ini": 122,
+"fin": 136,
+"texto": "hipotiroidismo",
+"estado": "afirmado"
+},
+{
+"caso": "S1699-695X2015000200013-1",
+"codigo": "M79.604",
+"ini": 273,
+"fin": 404,
+"texto": "miembro inferior derecho dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S1699-695X2015000200013-1",
+"codigo": "R52",
+"ini": 399,
+"fin": 404,
+"texto": "dolor",
+"estado": "negado"
+},
+{
+"caso": "S1699-695X2015000200013-1",
+"codigo": "L29.9",
+"ini": 407,
+"fin": 414,
+"texto": "prurito",
+"estado": "negado"
+},
+{
+"caso": "S1699-695X2015000200013-1",
+"codigo": "L98.9",
+"ini": 718,
+"fin": 735,
+"texto": "lesiones cutáneas",
+"estado": "negado"
+},
+{
+"caso": "S1699-695X2015000200013-1",
+"codigo": "A69.20",
+"ini": 1058,
+"fin": 1078,
+"texto": "Borrelia burgdorferi",
+"estado": "negado"
+},
+{
+"caso": "S1699-695X2015000200013-1",
+"codigo": "L94.0",
+"ini": 1191,
+"fin": 1197,
+"texto": "morfea",
+"estado": "afirmado"
+},
+{
+"caso": "S1699-695X2015000200013-1",
+"codigo": "L94.0",
+"ini": 1208,
+"fin": 1214,
+"texto": "morfea",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "I10",
+"ini": 53,
+"fin": 56,
+"texto": "HTA",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "D49.0",
+"ini": 90,
+"fin": 108,
+"texto": "neoplasia de recto",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "Z92.21",
+"ini": 115,
+"fin": 140,
+"texto": "tratada con quimioterapia",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "Z92.3",
+"ini": 115,
+"fin": 185,
+"texto": "tratada con radioterapia",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "R06.82",
+"ini": 920,
+"fin": 929,
+"texto": "taquipnea",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "R50.9",
+"ini": 1015,
+"fin": 1021,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "R50.9",
+"ini": 1468,
+"fin": 1474,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "J96.90",
+"ini": 1891,
+"fin": 1911,
+"texto": "fracaso respiratorio",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "R50.9",
+"ini": 1937,
+"fin": 1943,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "B00.9",
+"ini": 2130,
+"fin": 2136,
+"texto": "herpes",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "B25.9",
+"ini": 2138,
+"fin": 2141,
+"texto": "CMV",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "B00.9",
+"ini": 2537,
+"fin": 2549,
+"texto": "herpes virus",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-56912010000200009-1",
+"codigo": "R50.9",
+"ini": 2653,
+"fin": 2659,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142010000300011-1",
+"codigo": "R19.7",
+"ini": 542,
+"fin": 549,
+"texto": "diarrea",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142010000300011-1",
+"codigo": "N50.819",
+"ini": 848,
+"fin": 864,
+"texto": "dolor testicular",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142010000300011-1",
+"codigo": "N50.811",
+"ini": 848,
+"fin": 918,
+"texto": "dolor testicular derecho",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142010000300011-1",
+"codigo": "N43.3",
+"ini": 1321,
+"fin": 1330,
+"texto": "hidrocele",
+"estado": "afirmado"
+},
+{
+"caso": "S0004-06142010000300011-1",
+"codigo": "C63.7",
+"ini": 1570,
+"fin": 1765,
+"texto": "adenocarcinoma vaginal testicular",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "H54.61",
+"ini": 53,
+"fin": 103,
+"texto": "disminución de agudeza visual ojo derecho",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "I10",
+"ini": 174,
+"fin": 186,
+"texto": "hipertensión",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "E78.5",
+"ini": 189,
+"fin": 199,
+"texto": "dislipemia",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "J42",
+"ini": 216,
+"fin": 234,
+"texto": "bronquitis crónica",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "G45.9",
+"ini": 240,
+"fin": 271,
+"texto": "accidente isquémico transitorio",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "R58",
+"ini": 577,
+"fin": 587,
+"texto": "hemorragia",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "H35.60",
+"ini": 577,
+"fin": 600,
+"texto": "hemorragia subretiniana",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "H35.60",
+"ini": 768,
+"fin": 799,
+"texto": "subretiniana hemorragia",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "R58",
+"ini": 789,
+"fin": 799,
+"texto": "hemorragia",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "R58",
+"ini": 1436,
+"fin": 1446,
+"texto": "hemorragia",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "R58",
+"ini": 1606,
+"fin": 1616,
+"texto": "hemorragia",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "H35.30",
+"ini": 1716,
+"fin": 1720,
+"texto": "DMAE",
+"estado": "afirmado"
+},
+{
+"caso": "S0365-66912010000300005-1",
+"codigo": "H43.11",
+"ini": 1881,
+"fin": 1963,
+"texto": "OD hemovítreo",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "A41.9",
+"ini": 128,
+"fin": 134,
+"texto": "sepsis",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "G03.9",
+"ini": 137,
+"fin": 147,
+"texto": "meningitis",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "A39.0",
+"ini": 137,
+"fin": 163,
+"texto": "meningitis por meningococo",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "A41.9",
+"ini": 362,
+"fin": 368,
+"texto": "sepsis",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "R50.9",
+"ini": 396,
+"fin": 402,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "R50.9",
+"ini": 747,
+"fin": 753,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "B99.9",
+"ini": 838,
+"fin": 847,
+"texto": "infección",
+"estado": "negado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "R23.3",
+"ini": 857,
+"fin": 866,
+"texto": "petequias",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "B19.10",
+"ini": 1233,
+"fin": 1244,
+"texto": "hepatitis B",
+"estado": "negado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "K75.9",
+"ini": 1233,
+"fin": 1242,
+"texto": "hepatitis",
+"estado": "negado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "B19.20",
+"ini": 1233,
+"fin": 1248,
+"texto": "hepatitis C",
+"estado": "negado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "B20",
+"ini": 1250,
+"fin": 1253,
+"texto": "VIH",
+"estado": "negado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "B25.9",
+"ini": 1260,
+"fin": 1263,
+"texto": "CMV",
+"estado": "negado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "B00.9",
+"ini": 1265,
+"fin": 1268,
+"texto": "VHS",
+"estado": "negado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "G93.9",
+"ini": 1970,
+"fin": 2859,
+"texto": "lesiones cerebrales",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "R60.9",
+"ini": 2228,
+"fin": 2233,
+"texto": "edema",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "G06.0",
+"ini": 2292,
+"fin": 2311,
+"texto": "abscesos cerebrales",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "A39.4",
+"ini": 2339,
+"fin": 2353,
+"texto": "meningococemia",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "R50.9",
+"ini": 2763,
+"fin": 2776,
+"texto": "cuadro febril",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "G93.9",
+"ini": 2840,
+"fin": 2859,
+"texto": "lesiones cerebrales",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "R50.9",
+"ini": 3085,
+"fin": 3091,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272014000300016-1",
+"codigo": "G06.0",
+"ini": 3174,
+"fin": 3193,
+"texto": "abscesos cerebrales",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "Q60.5",
+"ini": 61,
+"fin": 77,
+"texto": "hipoplasia renal",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "N28.9",
+"ini": 254,
+"fin": 264,
+"texto": "nefropatía",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "N05.5",
+"ini": 454,
+"fin": 493,
+"texto": "glomerulonefritis membranoproliferativa",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "B19.20",
+"ini": 508,
+"fin": 511,
+"texto": "VHC",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "K75.9",
+"ini": 540,
+"fin": 549,
+"texto": "hepatitis",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "K73.9",
+"ini": 635,
+"fin": 663,
+"texto": "hepatitis crónica periportal",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "B19.20",
+"ini": 684,
+"fin": 687,
+"texto": "VHC",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "Z76.82",
+"ini": 790,
+"fin": 809,
+"texto": "lista de trasplante",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "R31.9",
+"ini": 975,
+"fin": 984,
+"texto": "hematuria",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "R50.9",
+"ini": 987,
+"fin": 993,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "T86.11",
+"ini": 1141,
+"fin": 1529,
+"texto": "rechazo agudo trasplante renal",
+"estado": "afirmado"
+},
+{
+"caso": "S0211-69952014000200012-1",
+"codigo": "B19.20",
+"ini": 1232,
+"fin": 1235,
+"texto": "VHC",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R11.10",
+"ini": 97,
+"fin": 104,
+"texto": "vómitos",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R10.13",
+"ini": 107,
+"fin": 124,
+"texto": "dolor epigástrico",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R23.1",
+"ini": 262,
+"fin": 269,
+"texto": "palidez",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R16.2",
+"ini": 283,
+"fin": 303,
+"texto": "hepatoesplenomegalia",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R10.816",
+"ini": 330,
+"fin": 362,
+"texto": "dolor epigástrico a la palpación",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R10.13",
+"ini": 330,
+"fin": 347,
+"texto": "dolor epigástrico",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "I96",
+"ini": 952,
+"fin": 960,
+"texto": "necrosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C78.7",
+"ini": 989,
+"fin": 1039,
+"texto": "hepático metástasis",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C78.00",
+"ini": 1092,
+"fin": 1113,
+"texto": "metástasis pulmonares",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "J90",
+"ini": 1135,
+"fin": 1150,
+"texto": "derrame pleural",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C78.00",
+"ini": 1304,
+"fin": 1350,
+"texto": "afectación metastásica pulmonares",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "J90",
+"ini": 1374,
+"fin": 1397,
+"texto": "derrame pleural derecho",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R59.0",
+"ini": 1399,
+"fin": 1424,
+"texto": "adenopatías mediastínicas",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R59.9",
+"ini": 1399,
+"fin": 1410,
+"texto": "adenopatías",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R16.0",
+"ini": 1445,
+"fin": 1458,
+"texto": "hepatomegalia",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C78.89",
+"ini": 1509,
+"fin": 1530,
+"texto": "metástasis esplénicas",
+"estado": "incierto"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C78.89",
+"ini": 1509,
+"fin": 1545,
+"texto": "metástasis pancreáticas",
+"estado": "incierto"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R57.1",
+"ini": 1796,
+"fin": 1814,
+"texto": "shock hipovolémico",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R57.9",
+"ini": 1796,
+"fin": 1801,
+"texto": "shock",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R10.9",
+"ini": 1842,
+"fin": 1872,
+"texto": "dolor abdominal",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C78.7",
+"ini": 2049,
+"fin": 2114,
+"texto": "afectación metastásica hígado",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C78.89",
+"ini": 2049,
+"fin": 2099,
+"texto": "afectación metastásica páncreas",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C78.89",
+"ini": 2049,
+"fin": 2105,
+"texto": "afectación metastásica bazo",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "S36.09X",
+"ini": 2101,
+"fin": 2128,
+"texto": "bazo rotura de",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "S36.116",
+"ini": 2108,
+"fin": 2128,
+"texto": "hígado rotura de",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C78.7",
+"ini": 2129,
+"fin": 2162,
+"texto": "metástasis hepáticas",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C78.89",
+"ini": 2129,
+"fin": 2150,
+"texto": "metástasis esplénicas",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "K66.1",
+"ini": 2172,
+"fin": 2185,
+"texto": "hemoperitoneo",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "T14.8",
+"ini": 2226,
+"fin": 2234,
+"texto": "hematoma",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "K76.89",
+"ini": 2226,
+"fin": 2250,
+"texto": "hematoma difuso hepático",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "N50.89",
+"ini": 2586,
+"fin": 2688,
+"texto": "testicular necrosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "I96",
+"ini": 2680,
+"fin": 2688,
+"texto": "necrosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "N50.1",
+"ini": 2691,
+"fin": 2750,
+"texto": "hemorragia testiculares",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R58",
+"ini": 2691,
+"fin": 2701,
+"texto": "hemorragia",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C62.90",
+"ini": 2788,
+"fin": 2797,
+"texto": "testículo",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "I96",
+"ini": 3093,
+"fin": 3101,
+"texto": "necrosis",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "C78.89",
+"ini": 3152,
+"fin": 3177,
+"texto": "esplénicas metástasis",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "D49.59",
+"ini": 3184,
+"fin": 3204,
+"texto": "neoplasia testicular",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R57.9",
+"ini": 3293,
+"fin": 3298,
+"texto": "shock",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R57.1",
+"ini": 3293,
+"fin": 3311,
+"texto": "shock hipovolémico",
+"estado": "afirmado"
+},
+{
+"caso": "S0210-48062007001000013-1",
+"codigo": "R58",
+"ini": 3495,
+"fin": 3505,
+"texto": "hemorragia",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "K50.00",
+"ini": 35,
+"fin": 75,
+"texto": "enfermedad de Crohn con afectación ileal",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R69",
+"ini": 35,
+"fin": 45,
+"texto": "enfermedad",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "K50.90",
+"ini": 35,
+"fin": 54,
+"texto": "enfermedad de Crohn",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R50.9",
+"ini": 154,
+"fin": 160,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R19.7",
+"ini": 184,
+"fin": 191,
+"texto": "diarrea",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R50.9",
+"ini": 559,
+"fin": 565,
+"texto": "febril",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "I95.9",
+"ini": 575,
+"fin": 584,
+"texto": "hipotenso",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R00.0",
+"ini": 602,
+"fin": 614,
+"texto": "taquicárdico",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R06.82",
+"ini": 627,
+"fin": 638,
+"texto": "taquipneico",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R19.04",
+"ini": 652,
+"fin": 701,
+"texto": "fosa iliaca derecha masa",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "L53.9",
+"ini": 812,
+"fin": 823,
+"texto": "eritematosa",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R52",
+"ini": 836,
+"fin": 844,
+"texto": "dolorosa",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "D64.9",
+"ini": 876,
+"fin": 882,
+"texto": "anemia",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "N19",
+"ini": 908,
+"fin": 927,
+"texto": "insuficiencia renal",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "A41.9",
+"ini": 1053,
+"fin": 1059,
+"texto": "sepsis",
+"estado": "incierto"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "N19",
+"ini": 1062,
+"fin": 1081,
+"texto": "insuficiencia renal",
+"estado": "incierto"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "E86.0",
+"ini": 1111,
+"fin": 1125,
+"texto": "deshidratación",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R41.0",
+"ini": 1263,
+"fin": 1277,
+"texto": "desorientación",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R45.1",
+"ini": 1279,
+"fin": 1288,
+"texto": "agitación",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "N19",
+"ini": 1657,
+"fin": 1670,
+"texto": "fracaso renal",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R19.09",
+"ini": 2086,
+"fin": 2106,
+"texto": "masa retroperitoneal",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R59.9",
+"ini": 2327,
+"fin": 2338,
+"texto": "adenopatías",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "K61.0",
+"ini": 2468,
+"fin": 2494,
+"texto": "absceso perianal",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "K60.3",
+"ini": 2478,
+"fin": 2494,
+"texto": "fístula perianal",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R69",
+"ini": 2650,
+"fin": 2660,
+"texto": "enfermedad",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R50.9",
+"ini": 2743,
+"fin": 2749,
+"texto": "fiebre",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R06.00",
+"ini": 2789,
+"fin": 2795,
+"texto": "disnea",
+"estado": "afirmado"
+},
+{
+"caso": "S1130-01082009000400009-1",
+"codigo": "R34",
+"ini": 2809,
+"fin": 2815,
+"texto": "anuria",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "M25.531",
+"ini": 72,
+"fin": 98,
+"texto": "dolor en la muñeca derecha",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "M67.431",
+"ini": 84,
+"fin": 1026,
+"texto": "muñeca derecha ganglión",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "R52",
+"ini": 153,
+"fin": 158,
+"texto": "dolor",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "R52",
+"ini": 417,
+"fin": 426,
+"texto": "dolorosos",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "R60.9",
+"ini": 872,
+"fin": 877,
+"texto": "edema",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "D16.10",
+"ini": 889,
+"fin": 1016,
+"texto": "escafoides encondroma",
+"estado": "incierto"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "M89.9",
+"ini": 1413,
+"fin": 626,
+"texto": "hueso lesión",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "M89.9",
+"ini": 1413,
+"fin": 787,
+"texto": "hueso lesión",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "M89.9",
+"ini": 1469,
+"fin": 1514,
+"texto": "lesión óseo",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "M27.49",
+"ini": 2197,
+"fin": 2219,
+"texto": "quistes aneurismáticos",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "D16.10",
+"ini": 2258,
+"fin": 2295,
+"texto": "condroblastoma de escafoides carpiano",
+"estado": "afirmado"
+},
+{
+"caso": "S1137-66272008000500009-1",
+"codigo": "R52",
+"ini": 2768,
+"fin": 2773,
+"texto": "dolor",
+"estado": "afirmado"
+}
+]
+}

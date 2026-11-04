@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CodificaMed</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="barra">
+    <div class="marca">
+      <span class="marca-nombre">CodificaMed</span>
+      <span class="marca-sub">Sugerencia de códigos CIE-10 a partir de notas clínicas</span>
+    </div>
+    <nav class="pestanas" role="tablist">
+      <button role="tab" id="tab-codificar" aria-selected="true" data-vista="codificar">Codificar</button>
+      <button role="tab" id="tab-evaluacion" aria-selected="false" data-vista="evaluacion">Evaluación</button>
+    </nav>
+  </header>
+
+  <main id="vista-codificar" class="vista">
+    <section class="controles" aria-label="Configuración del análisis">
+      <div class="grupo">
+        <label for="modo">Método</label>
+        <select id="modo">
+          <option value="llm">Con modelo de lenguaje</option>
+          <option value="reglas">Solo reglas (sin modelo)</option>
+        </select>
+      </div>
+      <div class="grupo" id="grupo-proveedor">
+        <label for="proveedor">Modelo</label>
+        <select id="proveedor">
+          <option value="ollama">Local (Ollama)</option>
+          <option value="claude">API externa: Claude</option>
+          <option value="openai">API externa: Gemini / OpenAI</option>
+        </select>
+        <span class="estado" id="estado-proveedor" role="status"><i class="punto"></i><span id="estado-texto">Comprobando…</span></span>
+      </div>
+      <div class="grupo grupo-opciones">
+        <label class="opcion"><input type="checkbox" id="op-negados" checked> Omitir negados y descartados</label>
+        <label class="opcion"><input type="checkbox" id="op-inciertos" checked> Omitir inciertos</label>
+        <span class="grupo">
+          <label for="confianza">Confianza mínima</label>
+          <select id="confianza">
+            <option value="0">Todas las sugerencias</option>
+            <option value="0.45">Media o alta</option>
+            <option value="0.7">Solo alta</option>
+          </select>
+        </span>
+      </div>
+    </section>
+
+    <div class="espacio">
+      <section class="panel panel-nota" aria-label="Nota clínica">
+        <div class="panel-cabecera">
+          <h2>Nota clínica</h2>
+          <div class="acciones-nota">
+            <select id="ejemplos" aria-label="Cargar un ejemplo"><option value="">Cargar un ejemplo…</option></select>
+          </div>
+        </div>
+        <textarea id="nota" spellcheck="false" placeholder="Pegue o escriba la nota clínica en texto libre. Use solo casos ficticios o del corpus público: no ingrese datos de pacientes reales."></textarea>
+        <article id="nota-anotada" class="nota-anotada" hidden></article>
+        <div class="pie-nota">
+          <span id="conteo" class="discreto">0 palabras</span>
+          <div>
+            <button id="btn-editar" class="secundario" hidden>Editar nota</button>
+            <button id="btn-codificar" class="primario">Sugerir códigos</button>
+          </div>
+        </div>
+        <div class="leyenda" id="leyenda" hidden>
+          <span class="m m-codificada">codificada</span>
+          <span class="m m-negado">negada o descartada</span>
+          <span class="m m-incierto">incierta</span>
+          <span class="m m-familiar">familiar</span>
+          <span class="m m-sincodigo">sin código</span>
+        </div>
+      </section>
+
+      <section class="panel panel-resultados" aria-label="Resultados">
+        <ol class="pipeline" id="pipeline" aria-label="Pasos del análisis"></ol>
+        <div id="mensaje" class="mensaje" hidden role="alert"></div>
+
+        <div id="resultados" hidden>
+          <div class="panel-cabecera">
+            <h2>Códigos sugeridos <span class="contador" id="contador-codigos"></span></h2>
+            <span class="discreto" id="resumen-corrida"></span>
+          </div>
+          <div class="tabla-envoltura">
+            <table class="tabla" id="tabla-codigos">
+              <thead><tr><th>Código</th><th>Descripción</th><th>Evidencia en la nota</th><th>Confianza</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <p class="vacio" id="vacio-codigos" hidden>No se encontraron menciones codificables en esta nota.</p>
+
+          <div id="bloque-descartados" hidden>
+            <h3>No codificadas <span class="contador" id="contador-desc"></span></h3>
+            <ul class="lista-desc" id="lista-desc"></ul>
+          </div>
+          <p class="aviso">Las sugerencias requieren validación del codificador humano.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <main id="vista-evaluacion" class="vista" hidden>
+    <section class="panel panel-ancho">
+      <div class="panel-cabecera">
+        <h2>Evaluación del sistema</h2>
+        <div class="grupo">
+          <label for="sel-conjunto">Conjunto</label>
+          <select id="sel-conjunto"></select>
+          <label for="sel-variante">Negación</label>
+          <select id="sel-variante"></select>
+          <label for="sel-criterio">Referencia</label>
+          <select id="sel-criterio">
+            <option value="codiesp">Códigos de CodiEsp</option>
+            <option value="ajustado">Solo códigos afirmados</option>
+          </select>
+        </div>
+      </div>
+      <p class="discreto" id="evaluacion-nota"></p>
+      <div id="evaluacion-contenido"></div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
