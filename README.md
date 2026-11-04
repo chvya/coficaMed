@@ -2,7 +2,15 @@
 
 Prototipo que recibe una nota clínica en texto libre y sugiere códigos CIE-10, mostrando la frase de la nota que justifica cada código. Distingue los diagnósticos afirmados de los negados, descartados, inciertos y familiares.
 
-Tarea de la materia Base de Conocimiento (Procesamiento de Lenguaje Natural), ESPOCH - FIE - EIS.
+Tarea de la materia Base de Conocimiento (Procesamiento de Lenguaje Natural), ESPOCH - FIE - EIS. Autor: Angel D. Gadvay.
+
+## Entregables
+
+| Entregable | Ubicación |
+|---|---|
+| Código fuente | Este repositorio: carpetas `app/`, `scripts/`, `tests/` y `data/` |
+| Informe ejecutivo | [`informe/Informe_CodificaMed.docx`](informe/Informe_CodificaMed.docx) |
+| Video de demostración | [Ver en Google Drive](https://drive.google.com/file/d/1RKDOEHkMCXERuPl9nBm0Fm6QFg_mUV_1/view?usp=sharing) |
 
 ## Qué hace
 
